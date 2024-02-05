@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="converter.css">
+</head>
+<body>
+    <p class="top">Convert Length Measurement</p>
+    <div class="container">
+        <p class="top">Length Converter</p>
+        <div class="inputcontainer">
+            <label for="feet">Feet</label>
+            <input type="number" name="" id="feet" oninput="convertToOther('feet',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="meter">Meter</label>
+            <input type="number" name="" id="meter" oninput="convertToOther('meter',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="inch">Inch</label>
+            <input type="number" name="" id="inch" oninput="convertToOther('inch',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="cm">cm</label>
+            <input type="number" name="" id="cm" oninput="convertToOther('cm',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="yard">Yard</label>
+            <input type="number" name="" id="yard" oninput="convertToOther('yard',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="km">km</label>
+            <input type="number" name="" id="km" oninput="convertToOther('km',this.value)">
+        </div>
+        
+
+    </div>
+
+    
+    <script src="converter.js"></script>
+</body>
+</html>
